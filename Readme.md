@@ -6,7 +6,7 @@ Code of Web Application Development course Spring 2023 course project Phase 2-2.
 ### Run the code:
 
 * clone the reopsitory
-* run `php -S localhost:[free port greater than 8000]`
+* in root folder, run `php -S localhost:[free port greater than 8000]`
 * open web-browser use `localhost:[portnumber]` as url
 
 ### Note:
