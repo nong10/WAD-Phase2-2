@@ -8,11 +8,11 @@
 </head>
 <body>
     <div id="header">
-        <a href="./index.html">Da-Recipes</a>
-        <a href="./pages/profile/favorite.html">Favorite</a>
-        <a href="./pages/profile/profile.html">Profile </a>
+        <a href="./index.php">Da-Recipes</a>
+        <a href="./pages/profile/favorite.php">Favorite</a>
+        <a href="./pages/profile/profile.php">Profile </a>
         <input type="text" placeholder="Search for recipes ...">
-        <a href="./pages/account/login.html">Login</a>
+        <a href="./pages/account/login.php">Login</a>
     </div>
 
     <div class="recipe-preview">
