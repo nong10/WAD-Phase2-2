@@ -1,0 +1,35 @@
+/* css for index.html */
+
+.recipe-preview {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    border-bottom: solid;
+    border-width: 3px;
+    border-color: #8d057d;
+}
+
+.recipe-preview div {
+    display: table-cell;
+    max-height: 50px;
+    vertical-align: top;
+}
+
+.recipe-preview h2,a {
+    display: inline;
+    color: #5d0352;
+    text-decoration: none;
+}
+
+.img-container {
+    width: 30%;
+}
+
+.recipe-preview img {
+    max-width: 100%;
+}
+
+.recipe-preview p,img {
+    float: left;
+    top: 0;
+}

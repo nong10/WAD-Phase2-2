@@ -1,0 +1,39 @@
+#header {
+    border-bottom: 10px;
+    border-right: 10px;
+    border-color:#8d057d;
+    border-style: solid;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-bottom: 100px;
+    align-items: center;
+    text-align: center;
+}
+
+#header a {
+    font-size: x-large;
+    display: inline;
+    text-decoration: inherit;
+    color: inherit;
+    padding: 10px;
+    border-style: dashed;
+    border-color: #e3c7d4;
+}
+
+#header a:hover {
+    display: inline;
+    border-style: dashed;
+    border-color: #8d057d;
+}
+
+#header input{
+    background-color: #eee2e8;
+    display: inline;
+    width: 300px;
+    height: 30px;
+    border: none;
+    margin-left: 30px;
+    padding: 10px;
+}

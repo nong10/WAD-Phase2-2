@@ -1,0 +1,36 @@
+
+#profile-box {
+    margin: 0 auto;
+    width: 300px;
+    padding: 50px 100px 100px 100px;
+    border-style: ;
+    background-color: #f0d9e4e1;
+} 
+
+
+#profile-box h3 {
+    margin-bottom: 5px;
+}
+
+#profile-box input {
+    height: 40px;
+    width: 100%;
+    border: none;
+    background-color: #f6f2f4;
+}
+
+.info {
+    color: black;
+}
+
+form {
+    margin-top: 50px;
+}
+
+button {
+    padding: 10px;
+    margin-top: 50px;
+    width: 100px;
+    float: right;
+    border: none;
+} 
