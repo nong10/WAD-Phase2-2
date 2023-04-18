@@ -1,4 +1,4 @@
-#header {
+.header {
     border-bottom: 10px;
     border-right: 10px;
     border-color:#8d057d;
@@ -12,7 +12,7 @@
     text-align: center;
 }
 
-#header a {
+.header a {
     font-size: x-large;
     display: inline;
     text-decoration: inherit;
@@ -22,13 +22,13 @@
     border-color: #e3c7d4;
 }
 
-#header a:hover {
+.header a:hover {
     display: inline;
     border-style: dashed;
     border-color: #8d057d;
 }
 
-#header input{
+.header input{
     background-color: #eee2e8;
     display: inline;
     width: 300px;
