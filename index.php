@@ -7,17 +7,15 @@
     <link rel="stylesheet" href="./stylesheets/header.css">
 </head>
 <body>
-    <div id="header">
-        <a href="./index.php">Da-Recipes</a>
-        <a href="./pages/profile/favorite.php">Favorite</a>
-        <a href="./pages/profile/profile.php">Profile </a>
-        <input type="text" placeholder="Search for recipes ...">
-        <a href="./pages/account/login.php">Login</a>
-    </div>
+
+    <?php
+        include_once './component/header.php';
+    ?>
+
 
     <div class="recipe-preview">
         <div class="p-container">
-            <a href="./pages/recipes/recipe_detail.html">
+            <a href="./pages/recipes/recipe_detail.php">
                 <h2>Ragu alla Bolognese</h2>
             </a>
             <p>
@@ -34,7 +32,7 @@
 
     <div class="recipe-preview">
         <div class="p-container">
-            <a href="./pages/recipes/recipe_detail.html">
+            <a href="./pages/recipes/recipe_detail.php">
                 <h2>Ragu alla Bolognese</h2>
             </a>
             <p>

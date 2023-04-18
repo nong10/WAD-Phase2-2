@@ -7,13 +7,10 @@
     <title>Recipe Detail Page</title>
 </head>
 <body>
-    <div id="header">
-        <a href="../../index.html">Da-Recipes</a>
-        <a href="../profile/favorite.html">Favorite</a>
-        <a href="../profile/profile.html">Profile </a>
-        <a href="../account/login.html">Login</a>
-        <input type="text" placeholder="Search for recipes ...">
-    </div>
+
+    <?php
+        include_once '../../component/header.php';
+    ?>
     
     <div class="recipe-container">
         <div id="recipe-table">

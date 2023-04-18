@@ -7,25 +7,27 @@
     <title>Login</title>
 </head>
 <body>
-    <div id="header">
-        <a href="../../index.html">Da-Recipes</a>
-        <a href="../profile/favorite.html">Favorite</a>
-        <a href="../profile/profile.html">Profile </a>
-        <a href="./login.html">Login</a>
-        <a href="../recipes/my_recipes.html">My Recipes</a>
-        <input type="text" placeholder="Search for recipes ...">
-    </div>
+
+    <?php
+        include_once '../../component/header.php';
+    ?>
     
     <div id="login-box">
             <h1>Login</h1>
-            <form action="" method="post">
+            <form action="" method="post" onsubmit="return validateForm()">
                 <h3>User name</h3>
-                <input type="text" placeholder="username...">
+                <input id="username" type="text" placeholder="username...">
                 <h3>Password</h3>
-                <input type="password" placeholder="password...">
+                <input id="password" type="password" placeholder="password...">
                 <button type="submit">Login</button>
             </form>
     </div>
+
+    <script>
+        <?php
+            include_once '../../js/valid-input.js';
+        ?>
+    </script>
     
     
 </body>

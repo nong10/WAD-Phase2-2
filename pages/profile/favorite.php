@@ -7,15 +7,11 @@
     <link rel="stylesheet" href="../../stylesheets/favorite.css">
 </head>
 <body>
-    <div id="header">
-        <a href="../../index.html">Da-Recipes</a>
-        <a href="./favorite.html">Favorite</a>
-        <a href="./profile.html">Profile </a>
-        <a href="../account/login.html">Login</a>
-        <a href="../recipes/my_recipes.html">My Recipes</a>
-        <input type="text" placeholder="Search for recipes ...">
-    </div>
     
+    <?php
+        include_once '../../component/header.php';
+    ?>
+
     <h1>My Favorites</h1>
     
     <div class="recipe-preview">
